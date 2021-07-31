@@ -5,7 +5,7 @@ aria-hidden="true">
         <div class="modal-header paper-title-modal">
             <!-- paper title -->
             <h3 class="modal-title">
-                A Unified Learning Approach for Hand Gesture Recognition and Fingertip Detection
+                Unified Learning Approach for Egocentric Hand Gesture Recognition and Fingertip Detection
             </h3>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
@@ -20,7 +20,8 @@ aria-hidden="true">
             </h6>
             <!-- journal/conf name -->
             <p class="card-text journal-conf-name">
-                In Pattern Recognition, Elsevier, Science Publishers [Under Review]
+                In Pattern Recognition, Elsevier Science Publishers, vol. 121,
+                            pp. 108200, 2022.
             </p>
             <!-- buttons -->
             <div class="pubs-buttons">
@@ -32,6 +33,9 @@ aria-hidden="true">
                     target="_blank">
                     <button type="button" class="btn btn-outline-primary btn-sm">Dataset</button>
                 </a>
+                <a href="https://www.sciencedirect.com/science/article/pii/S0031320321003824" target="_blank">
+                    <button type="button" class="btn btn-outline-primary btn-sm">ScienceDirect</button>
+                </a>
                 <a href="https://arxiv.org/abs/2101.02047" target="_blank">
                     <button type="button" class="btn btn-outline-primary btn-sm">ArXiv</button>
                 </a>
@@ -42,7 +46,7 @@ aria-hidden="true">
             <div class="abstract">
                 <h3>Abstract</h3>
                 <p>
-                    In human-computer interaction or in sign language interpretation, recognizing hand gestures and detecting fingertips become ubiquitous in computer vision research. In this paper, a unified convolutional neural network (CNN) approach for both hand gesture recognition and fingertip detection are introduced. The proposed algorithm uses a single network to predict finger class probabilities and fingertips positional output in one evaluation. Instead of directly regressing fingertips position from the fully connected layer of the CNN, we regress ensemble of fingertips position from the fully convolutional network (FCN) and subsequently take ensemble average to regress the final fingertips positional output. Since the whole recognition and detection pipeline use a single network, it is extremely fast, runs at 76 frames per second. Compared to state-of-the-art methods, the proposed method makes less localization error and less likely to predict false positive and false negative. It outperforms other fingertip detection approach including Heatmap-based and End2End frameworks.
+                    Head-mounted device-based human-computer interaction often requires egocentric recognition of hand gestures and fingertips detection. In this paper, a unified approach of egocentric hand gesture recognition and fingertip detection is introduced. The proposed algorithm uses a single convolutional neural network to predict the probabilities of finger class and positions of fingertips in one forward propagation. Instead of directly regressing the positions of fingertips from the fully connected layer, the ensemble of the position of fingertips is regressed from the fully convolutional network. Subsequently, the ensemble average is taken to regress the final position of fingertips. Since the whole pipeline uses a single network, it is significantly fast in computation. Experimental results show that the proposed method outperforms the existing fingertip detection approaches including the Direct Regression and the Heatmap-based framework. The effectiveness of the proposed method is also shown in-the-wild scenario as well as in a use-case of virtual reality.
                 </p>
                 <div class="pubs-imgs">
                     <img src="content/publications/unified-fingertip/featured.jpg">
