@@ -1,0 +1,358 @@
+/* Defaults */
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Navbar */
+
+.navbar {
+    box-shadow: 0 0.125rem 0.25rem 0 rgba(0, 0, 0, .11);
+}
+
+.navbar .navbar-brand {
+    color: black;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.navbar .navbar-nav li {
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 2;
+    margin-left: 10px;
+}
+
+a.nav-link:hover {
+    color: #007bff !important;
+}
+
+.navbar .navbar-nav li.last-item {
+    margin-right: 20px;
+}
+
+.navbar-brand img {
+    margin-left: 25px;
+    margin-right: 5px;
+}
+
+/* Home */
+
+.home {
+    padding-top: 20px;
+}
+
+.col-lg-4, .col-lg-8 {
+    margin: auto;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.avatar {
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.avatar img {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.title h1 {
+    font-size: 32px;
+    font-weight: 400;
+    padding: 5% 0 1% 0;
+    text-align: center;
+}
+
+.title a {
+    font-size: 22px;
+    display: block;
+    text-align: center;
+}
+
+.social {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.social a {
+    color: #2962ff;
+    display: inline-block;
+    margin: 5px;
+    font-size: 16px;
+}
+
+.social .fa-3x:hover,
+.social .ai-3x:hover {
+    color: lawngreen;
+}
+
+.bio h1 {
+    font-size: 40px;
+    font-weight: 400;
+    padding-bottom: 5px;
+}
+
+.bio p {
+    font-size: 20px;
+    text-align: justify;
+    padding-bottom: 5px;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+ul.fa-ul li {
+    font-size: 18px;
+    padding-top: 5px;
+}
+
+ul.fa-ul li i.fa {
+    padding-right: 5px;
+}
+
+div.education {
+    position: relative;
+    left: 15px;
+}
+
+p.degree {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+
+p.school {
+    font-size: 18px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+
+p.address {
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+/* Publications */
+
+.paper {
+    padding: 2%;
+    background-color: #f7f7f7;
+}
+
+.paper h1 {
+    font-size: 40px;
+    font-weight: 400;
+    padding: 10px 0;
+}
+
+.paper-title {
+    font-size: 30px;
+    font-weight: 400;
+    color: black;
+}
+
+.paper-title:hover {
+    color: #2962ff;
+    text-decoration-color: #007bff;
+}
+
+.authors {
+    color: rgba(0, 0, 0, .75);
+    padding: 5px 5px 5px 0;
+    margin: 5px 5px 5px 0;
+}
+
+.journal-conf-name {
+    font-size: larger;
+    font-weight: bold;
+    padding: 5px 5px 5px 0;
+    margin: 5px 5px 5px 0;
+}
+
+.pubs-buttons button {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 5px 5px 5px 0;
+    border-radius: 5px;
+    line-height: 1;
+    color: #2962ff;
+    border-color: #2962ff;
+}
+
+.pubs-buttons button:hover {
+    color: white;
+    background-color: #2962ff;
+}
+
+.pubs-imgs {
+    display: block;
+    margin: auto;
+}
+
+.pubs-imgs img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Modals */
+
+.modal-dialog {
+    width: 100%;
+}
+
+.abstract {
+    padding: 2%;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.modal-footer {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 2%;
+}
+
+.modal-footer button {
+    color: white;
+    background-color: red;
+    border: none;
+}
+
+/* Projects */
+
+.paper h1 {
+    font-size: 40px;
+    font-weight: 400;
+    padding: 10px 0;
+}
+
+.project-title {
+    font-size: 30px;
+    font-weight: 400;
+    color: black;
+}
+
+.project-details {
+    color: rgba(0, 0, 0, .75);
+    padding: 5px 5px 5px 0;
+    margin: 5px 5px 5px 0;
+}
+
+.project-imgs {
+    display: block;
+    margin: auto;
+}
+
+.project-imgs img {
+    max-width: 90%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+}
+
+/* News */
+
+.paper h1 {
+    font-size: 40px;
+    font-weight: 400;
+    padding: 10px 0;
+}
+
+.carousel {
+    margin: 2% 1vw 2% 1vw;
+}
+
+.carousel-inner { 
+    background-image: url("../content/news/carousel.jpg");
+    background-repeat: no-repeat;
+    height: 40vw;
+    display: block; 
+    margin: auto;
+    text-align: center;
+    padding: 15% 10%; 
+}
+
+.news-headings .title {
+    font-size: 2.5vw; 
+    font-weight: 600; 
+    color: black;
+}
+
+.news-headings .date {
+    font-size: 2vw; 
+    font-weight: 600; 
+    color: black;
+}
+
+/* Contact */
+
+#contact h1 {
+    margin-bottom: 50px;
+}
+
+input.form-control {
+    font-size: 18px;
+}
+
+textarea.form-control {
+    font-size: 18px; 
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+#send-button {
+    font-size: 20px;
+}
+
+#form-status {
+    border-radius: 3px;
+    height: 35px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#form-status.success {
+    background-color: rgb(120, 235, 20);
+    animation: status 8s ease forwards;
+}
+
+#form-status.error {
+    background-color: rgb(250, 10, 10);
+    color: white;
+    animation: status 8s ease forwards;
+}
+
+@keyframes status {
+    0% {
+        opacity: .5;
+        pointer-events: all;
+    }
+    10% {
+        opacity: 1;
+        pointer-events: all;
+    }
+    80% {
+        opacity: .8;
+        pointer-events: all;
+    }
+    100% {
+        opacity: 0;
+        pointer-events: none;
+    }
+}
+
+.footer-text {
+    font-size: 20px;
+}
