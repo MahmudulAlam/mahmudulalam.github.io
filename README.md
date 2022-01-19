@@ -1,7 +1,7 @@
-<h1 align="center">
-    My Personal :tada: <a href="https://mahmudulalam.github.io" target="_blank">Website!</a> :tada:
-</h1>
-
 <h2 align="center">
-  &copy; 2021 Copyright: Mohammad Mahmudul Alam :sunglasses:
+    My Personal <a href="https://mahmudulalam.github.io" target="_blank">Website!</a>
 </h2>
+
+<h3 align="center">
+  &copy; 2022 Copyright: Mohammad Mahmudul Alam
+</h3>
