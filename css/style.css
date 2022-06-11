@@ -264,6 +264,16 @@ p.address {
 
 /* News */
 
+.jumbotron {
+    height: fit-content;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+#news_title {
+    font-size: 24px;
+}
+
 .paper h1 {
     font-size: 40px;
     font-weight: 400;
