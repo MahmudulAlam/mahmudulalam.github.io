@@ -1,34 +1,33 @@
 <div class="modal fade" id="modal-hrrformer" tabindex="-1" role="dialog" aria-labelledby="modal-hrrformerTitle"
-aria-hidden="true">
-<div class="modal-dialog modal-xl" role="document">
-    <div class="modal-content">
-        <div class="modal-header paper-title-modal">
-            <!-- paper title -->
-            <h3 class="modal-title">
-                Recasting Self-Attention with Holographic Reduced Representations
-            </h3>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-            </button>
-        </div>
-        <div class="modal-body author-modal">
-            <!-- authors -->
-            <h6 class="card-subtitle">
-                Mohammad Mahmudul Alam,
-                Edward Raff,
-                Tim Oates,
-                James Holt
-            </h6>
-            <!-- journal/conf name -->
-            <p class="card-text journal-conf-name">
-                In 8th ACM SIGKDD International Workshop on Mining and Learning from 
-                Time Series – Deep Forecasting: Models, Interpretability, and Applications, 
-                Washington DC, USA, 2022. 
-            </p>
-            <!-- buttons -->
-             
-            <div class="pubs-buttons">
-                <!-- <a href="https://github.com/MahmudulAlam/Unified-Gesture-and-Fingertip-Detection"
+    aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+            <div class="modal-header paper-title-modal">
+                <!-- paper title -->
+                <h3 class="modal-title">
+                    Recasting Self-Attention with Holographic Reduced Representations
+                </h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body author-modal">
+                <!-- authors -->
+                <h6 class="card-subtitle">
+                    Mohammad Mahmudul Alam,
+                    Edward Raff,
+                    Stella Biderman,
+                    Tim Oates,
+                    James Holt
+                </h6>
+                <!-- journal/conf name -->
+                <p class="card-text journal-conf-name">
+                    In 40th International Conference on Machine Learning (ICML), Honolulu, HI, USA, 2023.
+                </p>
+                <!-- buttons -->
+
+                <div class="pubs-buttons">
+                    <!-- <a href="https://github.com/MahmudulAlam/Unified-Gesture-and-Fingertip-Detection"
                     target="_blank">
                     <button type="button" class="btn btn-outline-primary btn-sm">GitHub</button>
                 </a>
@@ -42,36 +41,36 @@ aria-hidden="true">
                 <a href="https://arxiv.org/abs/2101.02047" target="_blank">
                     <button type="button" class="btn btn-outline-primary btn-sm">ArXiv</button>
                 </a> -->
-                <a href="https://kdd-milets.github.io/milets2022/papers/MILETS_2022_paper_5942.pdf" target="_blank">
-                    <button type="button" class="btn btn-outline-primary btn-sm">PDF</button>
-                </a>
-            </div>
-           
-            <div class="abstract">
-                <h3>Abstract</h3>
-                <p>
-                    Self-Attention has become fundamentally a new approach to set and sequence 
-                    modeling, particularly within transformer-style architectures. Given a sequence 
-                    of T items the standard self-attention has O(T<sup>2</sup>) memory and compute 
-                    needs, leading to many recent works building approximations to self-attention 
-                    with reduced computational or memory complexity. In this work, we instead re-cast 
-                    self-attention using the neuro-symbolic approach of Holographic Reduced 
-                    Representations (HRR). In doing so we perform the same logical strategy of the 
-                    standard self-attention. Implemented as a <em>Hrrformer</em> we obtain several 
-                    benefits including faster compute (O(T log T) time complexity), less memory-use 
-                    per layer (O(T) space complexity), convergence in 10x fewer epochs, near 
-                    state-of-the-art accuracy, and we are able to learn with just a single layer. 
-                    Combined, these benefits make our Hrrformer up to 370x faster to train on the 
-                    Long Range Arena benchmark.
-                </p>
-                <div class="pubs-imgs">
-                    <img src="content/publications/hrrformer/featured.jpg">
+                    <a href="https://kdd-milets.github.io/milets2022/papers/MILETS_2022_paper_5942.pdf" target="_blank">
+                        <button type="button" class="btn btn-outline-primary btn-sm">PDF</button>
+                    </a>
+                </div>
+
+                <div class="abstract">
+                    <h3>Abstract</h3>
+                    <p>
+                        In recent years, self-attention has become the dominant paradigm for sequence modeling in a
+                        variety of domains. However, in domains with very long sequence lengths the 𝒪(T²) memory and
+                        𝒪(T²H) compute costs can make using transformers infeasible. Motivated by problems in malware
+                        detection, where sequence lengths of T ≥ 100, 000 are a roadblock to deep learning, we re-cast
+                        self-attention using the neuro-symbolic approach of Holographic Reduced Representations (HRR).
+                        In doing so we perform the same high-level strategy of the standard self-attention: a set of
+                        queries matching against a set of keys, and returning a weighted response of the values for each
+                        key. Implemented as a “Hrrformer” we obtain several benefits including 𝒪(THlogH) time
+                        complexity, 𝒪(TH) space complexity, and convergence in 10× fewer epochs. Nevertheless, the
+                        Hrrformer achieves near state-of-the-art accuracy on LRA benchmarks and we are able to learn
+                        with just a single layer. Combined, these benefits make our Hrrformer the only viable
+                        Transformer for such long malware classification sequences and up to 280× faster to train on the
+                        Long Range Arena benchmark.
+                    </p>
+                    <div class="pubs-imgs">
+                        <img src="content/publications/hrrformer/featured.jpg">
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="modal-footer">
-            <button type="button" class="btn btn-secondary btn-lg btn-block" data-dismiss="modal">Close</button>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary btn-lg btn-block" data-dismiss="modal">Close</button>
+            </div>
         </div>
     </div>
-</div>
 </div>

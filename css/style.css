@@ -309,7 +309,7 @@ p.address {
 /* Contact */
 
 #contact h1 {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 input.form-control {
@@ -365,4 +365,12 @@ textarea.form-control {
 
 .footer-text {
     font-size: 20px;
+}
+
+.notice {
+    font-size: large;
+    text-align: justify;
+    padding-left: 25px; 
+    padding-right: 25px; 
+    padding-bottom: 10px;
 }
