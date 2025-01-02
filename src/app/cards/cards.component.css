@@ -1,0 +1,47 @@
+.block {
+    margin-left: 20px;
+}
+
+.tag {
+    margin-bottom: 5px;
+}
+
+.tag button {
+    background-color: #7b00ff;
+    border-color: #7b00ff;
+    color: white; 
+    padding: 2px;
+    font-weight: bold;
+}
+
+.button-properties {
+    color: white;
+    border-color: #1B3139; 
+    background-color: #1B3139;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    font-weight: 500;
+    font-size: 15px;
+    border-width: 0.15em;
+    width: 110px;
+}
+
+.button-properties:hover {
+    background-color: #FF3621; 
+    border-color: #FF3621;
+}
+
+.pub-img img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.authors {
+    font-size: 20px;
+}
+
+.journal-conf-name {
+    margin-top: 2px;
+    font-size: 16px; 
+}

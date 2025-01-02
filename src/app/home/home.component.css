@@ -1,0 +1,78 @@
+.home {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.avatar img {
+    margin: auto;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+}
+
+.title h1 {
+    font-size: 40px;
+    font-weight: 500;
+    padding: 5% 0 1% 0;
+    text-align: center;
+}
+
+.social {
+    text-align: center;
+}
+
+.social a {
+    font-size: 50px;
+    padding: 10px;
+    color: white;
+}
+
+.social a:hover {
+    color: #FF3621; 
+}
+
+.header {
+    padding-bottom: 5px;
+}
+
+.biography {
+    text-align: justify;
+    font-size: 20px;
+}
+
+.hyperlink {
+    text-decoration: none;
+}
+
+.hyperlink:hover {
+    color: #FF3621; 
+}
+
+.interest { 
+    list-style-type:none; 
+    font-size: 20px;
+    padding: 0;
+}
+
+.experience {
+    font-size: 20px;
+    padding-bottom: 15px; 
+    display: flex;
+    align-items: start;
+    justify-content:start;
+    column-gap: 20px;
+}
+
+.education {
+    padding-top: 20px;
+    padding-left: 10%; 
+    padding-right: 10%;  
+}
+
+.edu-font {
+    font-size: 18px; 
+}
+
+.pad {
+    padding-bottom: 30px;
+}

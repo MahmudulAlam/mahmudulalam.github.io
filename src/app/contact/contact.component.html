@@ -1,0 +1,55 @@
+<div class="contact">
+    <h1>Contact Me</h1>
+
+    <div class="notice">
+      <p>
+        I receive tons of message requests from all over the world regarding helping individuals with their
+        projects/thesis. My sincere apologies to them that I would not be able to do so and I will not respond to such
+        requests. Contact me if you need genuine information or have specific questions regarding my project where you
+        need clarification. Please consider <b>not</b> spamming.
+      </p>
+    </div>
+
+    <form action="https://formspree.io/f/xwkwjovq" method="POST">
+      <!-- Name -->
+      <div class="form-group row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8">
+          <input type="text" name="name" class="form-control" placeholder="Name" required />
+        </div>
+        <div class="col-sm-2"></div>
+      </div>
+
+      <!-- Email -->
+      <div class="form-group row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8">
+          <input type="email" name="_replyto" class="form-control" id="inputEmail" placeholder="Email" required />
+        </div>
+        <div class="col-sm-2"></div>
+      </div>
+      <!-- Message -->
+      <div class="form-group row message-box">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8">
+          <textarea name="message" class="form-control" rows="3" placeholder="Message" required></textarea>
+        </div>
+        <div class="col-sm-2"></div>
+      </div>
+      <!-- Send -->
+      <div class="form-group row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-10">
+          <button type="submit" class="btn btn-primary button-properties" id="send-button">
+            Send
+          </button>
+        </div>
+      </div>
+      <div class="form-group row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8">
+          <div id="form-status"></div>
+        </div>
+      </div>
+    </form>
+  </div>

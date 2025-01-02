@@ -1,0 +1,40 @@
+<div class="card block">
+    <div class="row">
+        <div class="col-sm-12 col-md-8">
+            <div class="card-body">
+
+                <div class="tag">
+                    <button type="button" class="btn btn-info btn-rounded btn-sm tag">{{publication.tag}}</button>
+                </div>
+                
+                <!-- paper title -->
+                <h3>{{publication.title}}</h3>
+
+                <!-- authors -->
+                <p class="card-subtitle authors">{{publication.authors}}</p>
+                
+                <!-- journal/conf name -->
+                <div *ngFor="let venue of publication.venues">
+                    <p class="card-text journal-conf-name">{{venue}}</p>
+                </div>
+                
+                <!-- buttons -->
+                <div class="d-flex flex-wrap">
+                    <div *ngFor="let item of publication.buttons">
+                        <a href="{{item[1]}}"
+                            target="_blank">
+                            <button type="button" class="btn btn-sm btn-outline-primary button-properties">{{item[0]}}</button>
+                        </a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="col-sm-12 col-md-4 pub-img">
+            <img src="{{publication.picture}}">
+        </div>
+
+    </div>
+</div>
+

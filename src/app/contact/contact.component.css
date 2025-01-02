@@ -1,0 +1,35 @@
+.contact {
+    margin: 20px;
+}
+
+.notice {
+    font-size: 20px; 
+    text-align: justify;
+    padding: 10px;
+}
+
+.form-group {
+    padding-bottom: 10px; 
+}
+
+.form-control {
+    font-size: 20px; 
+    width: 100%;
+}
+
+.button-properties {
+    color: white;
+    border-color: #1B3139; 
+    background-color: #1B3139;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    font-weight: 500;
+    font-size: 15px;
+    border-width: 0.15em;
+    width: 110px;
+}
+
+.button-properties:hover {
+    background-color: #FF3621; 
+    border-color: #FF3621;
+}

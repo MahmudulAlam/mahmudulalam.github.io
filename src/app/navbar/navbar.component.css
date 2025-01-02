@@ -1,0 +1,22 @@
+.header {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px;
+    padding: 20px;
+}
+
+a.nav-link {
+    color: white;
+}
+
+a.nav-link:hover {
+    color: #FF3621 !important;
+}
+
+li.nav-item {
+    margin-left: 30px;
+}
+
+.active-link {
+    color: #FF3621 !important;
+}
