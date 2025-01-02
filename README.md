@@ -1,4 +1,4 @@
-<h2 align="center"><a href="https://mahmudulalam.github.io/home">My Personal Website!</a> :tada:</h2>
+<h2 align="center"><a href="https://mahmudulalam.github.io">My Personal Website!</a> :tada:</h2>
 
 <p align="center"><b><em>Build with</em></b></p> 
 <p align="center">
