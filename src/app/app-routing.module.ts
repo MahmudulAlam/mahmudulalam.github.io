@@ -7,6 +7,7 @@ import { ProjectsComponent } from './projects/projects.component';
 import { ContactComponent } from './contact/contact.component';
 
 const routes: Routes = [
+  {path: "", component: HomeComponent}, 
   {path: "home", component: HomeComponent}, 
   {path: "research", component: ResearchComponent},
   {path: "publications", component: PublicationsComponent},
@@ -16,7 +17,7 @@ const routes: Routes = [
 ] 
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)], 
+  imports: [RouterModule.forRoot(routes, { useHash: true })], 
   exports: [RouterModule]
 })
 
