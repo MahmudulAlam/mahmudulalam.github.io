@@ -1,0 +1,21 @@
+Download and install Node.js v20.18.1 (LTS) 
+
+node -v 
+
+npm install -g @angular/cli@15
+
+npm fund
+
+ng version
+
+ng new project_name 
+
+ng serve
+
+ng g c header --skip-tests
+
+ng add ngx-bootstrap
+
+ng add @fontawesome/angular-fontawesome 
+
+ng build 
